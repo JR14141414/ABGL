@@ -60,3 +60,34 @@ nav a.active {
   gap: 20px;
   padding: 20px;
 }
+
+.about-tour {
+  border: transparent solid 1px;
+  border-radius: 8px;
+  font-size: small;
+  padding: 16px;
+  margin: 10px;
+  box-shadow: 0 2px 10px var(--foreground);
+  background-color: var(--foreground);
+  color: var(--background);
+  align-items: center;
+  max-width: 70%;
+  text-size-adjust: 200%;
+}
+
+.title {
+  text-align: center;
+  background-color: var(--foreground);
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  border: transparent solid 1px;
+  border-radius: 8px;
+  padding: 16px;
+  margin: auto;
+  box-shadow: 0 2px 10px rgb(243, 212, 212);
+  max-width: 100%;
+  scroll-behavior: smooth;
+  display: inline-block;
+  transition: transform 0.5s ease;
+}

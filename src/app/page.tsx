@@ -11,10 +11,11 @@ export default function Home() {
             <a href="NextTour.html">Next Tournament</a>
         </nav>
     </header>
-
-    <h1>
-        The ABGL Tour
-    </h1>
+    <div className="title">
+      <h1>
+          The ABGL Tour
+      </h1>
+    </div>
 
     <main className="main"> 
             <div className="about-tour">
@@ -23,7 +24,7 @@ export default function Home() {
                     the founders of the competition - Sir Harry and Sir Jacob. This is an invitational event, we will also play with a handicap. We encourage participation.</p>
                 </div>
             </div>
-        </main>
+        </main> 
     </div>
   );
 }
