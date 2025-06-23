@@ -1,7 +1,7 @@
 export default function HeaderBar() {
     return (
     <header>
-        <div className="logo">
+        <div className="flex justify-center">
             <a href="/"><img src="/ABGL logo.png" alt="ABGL logo"/></a>
         </div>
         <nav>
