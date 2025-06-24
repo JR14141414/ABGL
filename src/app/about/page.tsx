@@ -1,4 +1,4 @@
-import HeaderBar from "@/components/headerBar"
+import HeaderBar from "@/components/HeaderBar"
 
 export default function About() {
     return (
