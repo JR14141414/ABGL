@@ -1,16 +1,10 @@
-import Image from "next/image";
+import HeaderBar from "@/components/headerBar";
 
 export default function Home() {
   return (
   <div>
-    <header>
-        <img src="/ABGL logo.png" alt="ABGL logo"/>
-        <nav>
-            <a href="PastTour.html">Past Tournaments</a>
-            <a href="Leaderboard.html">Leaderboard</a>
-            <a href="NextTour.html">Next Tournament</a>
-        </nav>
-    </header>
+    <HeaderBar></HeaderBar>
+    
     <div className="title">
       <h1>
           The ABGL Tour
