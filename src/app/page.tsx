@@ -29,6 +29,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <FooterBar></FooterBar>
     </div>
   );
 }
