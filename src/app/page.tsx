@@ -1,4 +1,5 @@
-import HeaderBar from "@/components/HeaderBar";
+import HeaderBar from "@/components/headerBar";
+import FooterBar from "@/components/footerBar";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           <p>Description of the next event goes here.</p>
         </div>
       </div>
-
+      
       <div className="flex justify-center">
         <div className="past-events">
           <div className="event-card">
