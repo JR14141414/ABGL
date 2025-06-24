@@ -72,7 +72,6 @@ nav a.active {
   color: var(--background);
   align-items: center;
   max-width: 70%;
-  text-size-adjust: 200%;
 }
 
 .title {
