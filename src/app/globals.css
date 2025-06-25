@@ -120,13 +120,14 @@ nav a.active {
   gap: 1rem;
   width: 100%;
   max-width: 64rem;
+  padding: 10px;
 }
 
 .event-card {
-  width: 10rem;
+  width: 25%;
   border: 1px solid var(--foreground);
-  padding: 0.5rem;
   text-align: center;
+  padding: 10px;
 }
 
 .card-title {
