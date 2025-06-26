@@ -15,8 +15,8 @@ export default function Rules() {
             </div>
 
             {/* Rules Box */}
-            <div className="flex flex-col gap-4 w-full max-w-3xl p-6 border border-gray-300 rounded-2xl shadow-md bg-white text-color-black">
-                <ul>
+            <div className="flex rounded-2xl border white p-6 bg-eventcard">
+                <ol>
                     <li>1. No Mulligans
 You get one shot, one opportunity… are you gonna capture it or let it slip? Do not give people in your group mulligans, do not take mulligans. There are no breakfast balls. There is a national competition at hand, don’t be a cheater.</li>
 
@@ -41,20 +41,20 @@ Beer League Golf does not tolerate cheaters. We are not your high school girlfri
 <li>8. Drink Responsibly
 Beer League Golf’s “suggested drinking rules” are merely suggestions. You are not required to drink alcohol, drink a Capri Sun if you prefer. If you don’t want to drink anything at all, that’s fine too, but please consider drinking a water on occasion. If you do choose to drink alcohol, drink responsibly. Do not drink and drive. Call an Uber/Lyft or get a ride from a friend.</li>
 
-<li>8. Enter Your Score Every Hole
+<li>9. Enter Your Score Every Hole
 Your scores must be entered on the Beer League Golf Web App after every hole. We enter our scores every hole so that the live Leaderboard for your Club updates everyone’s scores as the game is played. That way you can see who is leading and how much work have to do to catch them or protect your lead. If you don’t enter your score every hole, it won’t update your score on the live Leaderboard, people will be mad at you, you will lose friends, just enter your score every hole.</li>
 
-<li>9. Play Ready Golf
+<li>10. Play Ready Golf
 Don’t wait on the guy dicking around trying to zip the difference of 228 or 232. He ain’t hitting the green anyhow. Grip it and rip it like the lord of golf himself, John Daly.</li>
 
-<li>10. Don’t be a Jerk
+<li>11. Don’t be a Jerk
 This isn’t Men’s League and this sure as hell isn’t the PGA, so don’t be a dick and argue about every little thing. Keep your play honest, and follow the rules, but don’t make everyone miserable, Karen. Finish your drink and pick up your trash.</li>
 
-<li>11. Respect The Course
+<li>12. Respect The Course
 If you rock a 60 degree wedge and take a fat beaver pelt divot which results with your ball cratering the green like Sputnik take the time to fix the damage. Also, support your course by making sure to buy your beverages and snacks from the restaurant and remember that Beer Leaguer's have big tip energy, tip your bartenders!!</li>
 
 <li>For all other situations that might arise - refer to the hosting course rules or your local league leadership. If you still have questions after thoroughly consulting all of the aforementioned resources, consult your inner self and your higher power.</li>
-                </ul>
+                </ol>
             </div>
             </div>
         </div>
