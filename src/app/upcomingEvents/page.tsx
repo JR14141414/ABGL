@@ -1,4 +1,4 @@
-import HeaderBar from "@/components/HeaderBar"
+import HeaderBar from "@/components/headerBar"
 
 export default function UpcomingEvents() {
     return (

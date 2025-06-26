@@ -1,18 +1,38 @@
 import HeaderBar from "@/components/headerBar";
 import FooterBar from "@/components/footerBar";
-
+import PreviousEventCard from "@/components/previousEventCard";
+import UpcomingEventCard from "@/components/upcomingEventCard";
 export default function Home() {
+  
+  
   return (
   <div>
-    <HeaderBar></HeaderBar>
+    <HeaderBar/>
 
-      <div className="flex justify-center">
+    <div className="grid grid-cols-12 gap-10 justify-center px-[10%] pt-5">
+      <div className="col-span-full">
+        <UpcomingEventCard eventTitle="Next Event" image="/test_image_1.jpg"/>
+      </div>
+
+      <div className="col-span-4">
+        <PreviousEventCard eventTitle="Past Event 1" image="/test_image_1.jpg"/>
+      </div>
+
+      <div className="col-span-4">
+        <PreviousEventCard eventTitle="Past Event 2" image="/test_image_2.jpg"/>
+      </div>
+
+      <div className="col-span-4">
+        <PreviousEventCard eventTitle="Past Event 3" image="/test_image_3.jpg"/>
+      </div>
+    </div>
+
+      {/* <div className="flex justify-center">
         <div className="next-event">
           <h2>Next Event</h2>
           <p>Description of the next event goes here.</p>
         </div>
       </div>
-      
       <div className="flex justify-center">
         <div className="past-events">
           <div className="event-card">
@@ -50,8 +70,9 @@ export default function Home() {
               </div>
           </div>
         </div>
-      </div>
-      <FooterBar></FooterBar>
+      </div> */}
+      <br/>
+      <FooterBar/>
     </div>
   );
 }
