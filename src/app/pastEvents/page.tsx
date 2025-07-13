@@ -10,19 +10,19 @@ export default function PastEvents() {
 
     <main className="p-6 grid grid-cols-5 gap-6 items-start text-white">
       {/* Left Side: Image + Table */}
-      <div className="col-span-4 space-y-4">
+      <div className="col-span-4 space-y-4 flex flex-col items-center">
         <img
           src="/test_image_1.jpg"
           alt="Event Banner"
-          className="w-full h-auto max-w-2xl rounded-xl shadow-md"
+          className="w-auto h-auto max-h-[400px] rounded-xl shadow-md"
         />
-
-        <div className="overflow-x-auto bg-gray-800 rounded-xl">
-          <table className="min-w-full table-auto border border-gray-600">
+s
+        <div className="overflow-x-auto bgray-800 rounded-xl">
+          <table className="w-auto table-auto border border-gray-600 mx-auto">
             <thead className="bg-gray-700 text-white">
               <tr>
-                <th className="border border-gray-600 px-4 py-2 text-left">Position</th>
-                <th className="border border-gray-600 px-4 py-2 text-left">Name</th>
+                <th className="border border-gray-600 px-4 py-2 text-left whitespace-nowrap">Position</th>
+                <th className="border border-gray-600 px-4 py-2 text-left whitespace-nowrap">Name</th>
               </tr>
             </thead>
             <tbody>
