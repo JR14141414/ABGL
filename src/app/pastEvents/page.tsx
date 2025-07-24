@@ -5,18 +5,16 @@ export default function PastEvents() {
     <div className="min-h-screen">
     <HeaderBar></HeaderBar>
     <div id="header-bar">
-      {/* Include your static header HTML or embed component here */}
     </div>
 
     <main className="p-6 grid grid-cols-5 gap-6 items-start text-white">
-      {/* Left Side: Image + Table */}
       <div className="col-span-4 space-y-4 flex flex-col items-center">
         <img
           src="/test_image_1.jpg"
           alt="Event Banner"
           className="w-auto h-auto max-h-[400px] rounded-xl shadow-md"
         />
-s
+
         <div className="overflow-x-auto bgray-800 rounded-xl">
           <table className="w-auto table-auto border border-gray-600 mx-auto">
             <thead className="bg-gray-700 text-white">
